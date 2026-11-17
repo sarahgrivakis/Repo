@@ -5,6 +5,6 @@ import cloudflare from '@astrojs/cloudflare';
 export default defineConfig({
   base: '/eled-2025-materials',
   build: { assetsPrefix: '/eled-2025-materials' },
-  output: 'static',
+  output: 'server',
   adapter: cloudflare(),
 });
