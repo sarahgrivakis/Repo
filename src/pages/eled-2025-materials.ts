@@ -1,4 +1,4 @@
-import html from '../content/page.html?raw';
+import html from '../content/eled-2025-materials.html?raw';
 
 export const prerender = false;
 
